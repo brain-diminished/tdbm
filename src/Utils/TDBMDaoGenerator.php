@@ -237,6 +237,7 @@ declare(strict_types=1);
 
 namespace {$daonamespace}\\Generated;
 
+use TheCodingMachine\\TDBM\\TDBMException;
 use TheCodingMachine\\TDBM\\TDBMService;
 use TheCodingMachine\\TDBM\\ResultIterator;
 ".implode('', $useStatements)."
